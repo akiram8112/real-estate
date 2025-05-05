@@ -44,7 +44,7 @@ const MessagePage = async () => {
 
           <div className='space-y-4'>
             {messages.length === 0 ? (
-              <p>You have no messages</p>
+              <p>You have no messages!</p>
             ) : (
               messages.map((message) => (
                 <MessageCard key={message._id} message={message} />
